@@ -17,7 +17,7 @@ const ContactSection = () => {
           <div className="font-mono text-sm">
             <div className="text-primary mb-4">root@aohf:~# connect</div>
             <div className="text-muted-foreground mb-4">
-              > Establishing secure channels...
+              {'>'}  Establishing secure channels...
             </div>
             <div className="text-green-400 mb-6">
               [✓] Connection established. Available endpoints:

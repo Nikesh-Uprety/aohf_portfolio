@@ -31,7 +31,7 @@ const HeroSection = () => {
             {showCursor && <span className="animate-pulse text-primary">_</span>}
           </div>
           <div className="font-mono text-sm sm:text-base text-primary mb-2">
-            => "Pushing the boundaries of offensive security, one shell at a time."
+            ={'>'} "Pushing the boundaries of offensive security, one shell at a time."
           </div>
         </div>
 
