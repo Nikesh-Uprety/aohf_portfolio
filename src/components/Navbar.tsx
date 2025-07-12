@@ -21,13 +21,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center">
             <img 
               src="/lovable-uploads/8c2b572f-fd13-41ce-8f9a-5d7e24c9aa7e.png" 
               alt="AOHF Logo" 
               className="h-8 w-8"
             />
-            <span className="font-mono text-xl font-bold text-primary">AOHF</span>
           </Link>
 
           {/* Desktop Navigation */}
