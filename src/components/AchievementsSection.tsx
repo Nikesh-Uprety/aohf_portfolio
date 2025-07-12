@@ -12,7 +12,7 @@ const AchievementsSection = () => {
         },
         {
           icon: "🏆",
-          title: "OWASP Kathmandu Meetup CTF",
+          title: "OWASP Kathmandu  7th Meetup CTF",
           description: "2nd Place",
           category: "CTF Competition",
         },
