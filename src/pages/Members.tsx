@@ -51,6 +51,24 @@ const Members = () => {
       avatar:
         "https://cdn.discordapp.com/avatars/1069274307680804955/983ff08f637c3078017d88d092427755.webp?size=80",
     },
+    {
+      username: "MoonLight",
+      role: "Founding Member",
+      specialization: ["Web", "Reverse"],
+      website: "https://example.com",
+      email: "founder2@aohf.team",
+      avatar:
+        "	https://cdn.discordapp.com/avatars/578155774002331649/c4cae0f0eed7b163926a53643917dd61.webp?size=80",
+    },
+    {
+      username: "YoursTruly",
+      role: "Founding Member",
+      specialization: ["Crypto", "Forensics"],
+      website: "https://example.com",
+      email: "founder2@aohf.team",
+      avatar:
+        "https://cdn.discordapp.com/avatars/806500832500645899/3f9ed89e884266931b56257e597af8f8.webp?size=80",
+    },
 
     // Moderators
     {
