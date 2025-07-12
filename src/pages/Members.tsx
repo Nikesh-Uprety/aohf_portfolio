@@ -7,6 +7,7 @@ interface Member {
   specialization: string[];
   website: string;
   email: string;
+  avatar:string;
 }
 
 const Members = () => {
@@ -14,20 +15,110 @@ const Members = () => {
 
   const members: Member[] = [
     // Founding Members
-    { username: '0xn1ku_hacks', role: 'Founding Member', specialization: ['Web', 'Crypto'], website: 'https://nikeshuprety.com.np/', email: '0xn1ku_hacks@aohf.team' },
-    { username: 'founder2', role: 'Founding Member', specialization: ['Binary', 'Reverse'], website: 'https://example.com', email: 'founder2@aohf.team' },
-    
+    {
+      username: "0xn1ku_hacks",
+      role: "Founding Member",
+      specialization: ["Web", "DevSecOps"],
+      website: "https://nikeshuprety.com.np/",
+      email: "0xn1ku_hacks@aohf.team",
+      avatar:
+        "https://cdn.discordapp.com/avatars/587273795707076608/38e8dd0692d6e01a2e7388f0750dcbcf.webp?size=80",
+    },
+    {
+      username: "༒𝙰sʜᴡɪɴ༒",
+      role: "Founding Member",
+      specialization: ["Web", "Forensics"],
+      website: "https://aswinpoudel.com.np",
+      email: "founder2@aohf.team",
+      avatar:
+        "https://cdn.discordapp.com/avatars/710501147458404472/64b143a0bffbdddf599651642728e575.webp?size=80",
+    },
+    {
+      username: "kharayo1x",
+      role: "Founding Member",
+      specialization: ["OSINT", "General"],
+      website: "https://s",
+      email: "founder2@aohf.team",
+      avatar:
+        "https://cdn.discordapp.com/avatars/419082019385901057/a_9873fab1290727dbd21c34d033634069.webp?size=80",
+    },
+    {
+      username: "p0tato",
+      role: "Founding Member",
+      specialization: ["Binary", "Reverse"],
+      website: "https://example.com",
+      email: "founder2@aohf.team",
+      avatar:
+        "https://cdn.discordapp.com/avatars/1069274307680804955/983ff08f637c3078017d88d092427755.webp?size=80",
+    },
+
     // Moderators
-    { username: 'mod_sec', role: 'Moderator', specialization: ['Forensics', 'OSINT'], website: 'https://example.com', email: 'mod_sec@aohf.team' },
-    { username: 'crypto_mod', role: 'Moderator', specialization: ['Crypto', 'Math'], website: 'https://example.com', email: 'crypto_mod@aohf.team' },
-    { username: 'web_guardian', role: 'Moderator', specialization: ['Web', 'Network'], website: 'https://example.com', email: 'web_guardian@aohf.team' },
-    
+    {
+      username: "mod_sec",
+      role: "Moderator",
+      specialization: ["Forensics", "OSINT"],
+      website: "https://example.com",
+      email: "mod_sec@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+    {
+      username: "crypto_mod",
+      role: "Moderator",
+      specialization: ["Crypto", "Math"],
+      website: "https://example.com",
+      email: "crypto_mod@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+    {
+      username: "web_guardian",
+      role: "Moderator",
+      specialization: ["Web", "Network"],
+      website: "https://example.com",
+      email: "web_guardian@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+
     // Active Players
-    { username: 'pwn_master', role: 'Active Player', specialization: ['Binary', 'Pwn'], website: 'https://example.com', email: 'pwn_master@aohf.team' },
-    { username: 'stego_ninja', role: 'Active Player', specialization: ['Steganography', 'Forensics'], website: 'https://example.com', email: 'stego_ninja@aohf.team' },
-    { username: 'rev_engineer', role: 'Active Player', specialization: ['Reverse', 'Malware'], website: 'https://example.com', email: 'rev_engineer@aohf.team' },
-    { username: 'net_hunter', role: 'Active Player', specialization: ['Network', 'OSINT'], website: 'https://example.com', email: 'net_hunter@aohf.team' },
-    { username: 'crypto_wizard', role: 'Active Player', specialization: ['Crypto', 'Math'], website: 'https://example.com', email: 'crypto_wizard@aohf.team' },
+    {
+      username: "pwn_master",
+      role: "Active Player",
+      specialization: ["Binary", "Pwn"],
+      website: "https://example.com",
+      email: "pwn_master@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+    {
+      username: "stego_ninja",
+      role: "Active Player",
+      specialization: ["Steganography", "Forensics"],
+      website: "https://example.com",
+      email: "stego_ninja@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+    {
+      username: "rev_engineer",
+      role: "Active Player",
+      specialization: ["Reverse", "Malware"],
+      website: "https://example.com",
+      email: "rev_engineer@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+    {
+      username: "net_hunter",
+      role: "Active Player",
+      specialization: ["Network", "OSINT"],
+      website: "https://example.com",
+      email: "net_hunter@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
+    {
+      username: "crypto_wizard",
+      role: "Active Player",
+      specialization: ["Crypto", "Math"],
+      website: "https://example.com",
+      email: "crypto_wizard@aohf.team",
+      avatar: "/lovable-uploads/0xn1ku_hacks.png",
+    },
   ];
 
   const roles = ['All', 'Founding Member', 'Moderator', 'Active Player'];
@@ -114,10 +205,12 @@ const MemberCard = ({ member }: { member: Member }) => {
   return (
     <div className="bg-card border border-border rounded-lg p-6 hover:border-primary/30 transition-all duration-300 hover:scale-105 group">
       {/* Avatar Placeholder */}
-      <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-        <span className="text-2xl font-mono font-bold text-primary">
-          {member.username.charAt(0).toUpperCase()}
-        </span>
+      <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4">
+        <img
+          src={member.avatar}
+          alt={`${member.username}'s avatar`}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Member Info */}
@@ -125,15 +218,19 @@ const MemberCard = ({ member }: { member: Member }) => {
         <h3 className="text-lg font-bold text-foreground font-mono">
           {member.username}
         </h3>
-        
-        <div className={`inline-block px-3 py-1 rounded-full text-xs font-medium border ${getRoleColor(member.role)}`}>
+
+        <div
+          className={`inline-block px-3 py-1 rounded-full text-xs font-medium border ${getRoleColor(
+            member.role
+          )}`}
+        >
           {member.role}
         </div>
 
         {/* Specializations */}
         <div className="flex flex-wrap justify-center gap-2">
           {member.specialization.map((spec) => (
-            <span 
+            <span
               key={spec}
               className="bg-accent text-accent-foreground px-2 py-1 rounded text-xs font-mono"
             >

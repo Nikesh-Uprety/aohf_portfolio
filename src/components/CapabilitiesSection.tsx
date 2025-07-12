@@ -21,16 +21,15 @@ const CapabilitiesSection = () => {
       'Ghidra & IDA Pro',
       'Wireshark & tcpdump',
       'SQLMap & OWASP ZAP',
-      'Cobalt Strike',
       'BloodHound & SharpHound'
     ],
     platforms: [
-      'Kali Linux & Parrot OS',
-      'Docker & Kubernetes',
+      'Kali Linux',
+      'Docker',
       'AWS & Azure Security',
       'GitHub Actions CI/CD',
       'VMware & VirtualBox',
-      'pfSense & OPNsense'
+    
     ],
     programming: [
       'Python & Go',

@@ -2,92 +2,92 @@
 const AchievementsSection = () => {
   const achievements = [
     {
-      year: '2025',
+      year: "2025",
       items: [
         {
-          icon: '🥇',
-          title: 'NepCTF National 2025',
-          description: '1st Place Overall',
-          category: 'CTF Competition'
+          icon: "🥇",
+          title: "Softwarica Hack@Fest 2.0",
+          description: "3rd Place Overall",
+          category: "CTF Competition",
         },
         {
-          icon: '🧠',
-          title: 'CryptoRush Challenge',
-          description: 'Top 5 in Cryptography',
-          category: 'Specialized CTF'
+          icon: "🏆",
+          title: "OWASP Kathmandu Meetup CTF",
+          description: "2nd Place",
+          category: "CTF Competition",
         },
-        {
-          icon: '📡',
-          title: 'Pwn2Win Qualifiers',
-          description: 'Top 50 Global (Web Exploitation)',
-          category: 'International CTF'
-        }
-      ]
+      ],
     },
     {
-      year: '2024',
+      year: "2024",
       items: [
         {
-          icon: '🛠️',
-          title: 'HackTheMountain',
-          description: 'Finalist, DevSecOps Track',
-          category: 'Hackathon'
+          icon: "🥇",
+          title: "Softwarica Hack@Fest 1.0",
+          description: "1st Place Overall",
+          category: "CTF Competition",
         },
-        {
-          icon: '🎯',
-          title: 'TryHackMe Team Ladder',
-          description: 'Top 3 in Nepal',
-          category: 'Platform Ranking'
-        },
-        {
-          icon: '🏆',
-          title: 'Bug Bounty Research',
-          description: 'Critical SSTI vulnerability disclosed',
-          category: 'Security Research'
-        }
-      ]
+        // {
+        //   icon: "🛠️",
+        //   title: "HackTheMountain",
+        //   description: "Finalist, DevSecOps Track",
+        //   category: "Hackathon",
+        // },
+        // {
+        //   icon: "🎯",
+        //   title: "TryHackMe Team Ladder",
+        //   description: "Top 3 in Nepal",
+        //   category: "Platform Ranking",
+        // },
+        // {
+        //   icon: "🏆",
+        //   title: "Bug Bounty Research",
+        //   description: "Critical SSTI vulnerability disclosed",
+        //   category: "Security Research",
+        // },
+      ],
     },
     {
-      year: '2023',
+      year: "2023",
       items: [
-        {
-          icon: '🚩',
-          title: 'InceptionCTF',
-          description: '2nd Runner-Up (Binary Exploitation)',
-          category: 'CTF Competition'
-        },
-        {
-          icon: '📁',
-          title: 'CTFtime Debut',
-          description: 'Top 20% Worldwide in first year',
-          category: 'Global Ranking'
-        },
-        {
-          icon: '🧑‍🏫',
-          title: 'Community Outreach',
-          description: 'Cybersecurity 101 workshops for students',
-          category: 'Education'
-        }
-      ]
-    }
+        // {
+        //   icon: "🚩",
+        //   title: "InceptionCTF",
+        //   description: "2nd Runner-Up (Binary Exploitation)",
+        //   category: "CTF Competition",
+        // },
+        // {
+        //   icon: "📁",
+        //   title: "CTFtime Debut",
+        //   description: "Top 20% Worldwide in first year",
+        //   category: "Global Ranking",
+        // },
+        // {
+        //   icon: "🧑‍🏫",
+        //   title: "Community Outreach",
+        //   description: "Cybersecurity 101 workshops for students",
+        //   category: "Education",
+        // },
+      ],
+    },
   ];
 
   const research = [
-    {
-      title: 'CSP Bypass with SVG Chains',
-      description: 'Novel technique for Content Security Policy evasion',
-      type: 'Research Paper'
-    },
-    {
-      title: 'Advanced OSINT Automation',
-      description: 'Custom toolchain for reconnaissance workflows',
-      type: 'Tool Development'
-    },
-    {
-      title: 'Container Escape Techniques',
-      description: 'Docker and Kubernetes security analysis',
-      type: 'Security Research'
-    }
+    // {
+    //   title: 'CSP Bypass with SVG Chains',
+    //   description: 'Novel technique for Content Security Policy evasion',
+    //   type: 'Research Paper'
+    // },
+    // {
+    //   title: 'Advanced OSINT Automation',
+    //   description: 'Custom toolchain for reconnaissance workflows',
+    //   type: 'Tool Development'
+    // },
+    // {
+    //   title: 'Container Escape Techniques',
+    //   description: 'Docker and Kubernetes security analysis',
+    //   type: 'Security Research'
+    // }
   ];
 
   return (
@@ -177,10 +177,10 @@ const AchievementsSection = () => {
               <div className="font-mono text-sm">
                 <div className="text-primary mb-3">./statistics</div>
                 <div className="space-y-2 text-muted-foreground">
-                  <div><span className="text-green-400">CTF_RANKING:</span> Top 20% Global</div>
+                  {/* <div><span className="text-green-400">CTF_RANKING:</span> Top 20% Global</div>
                   <div><span className="text-green-400">VULNERABILITIES:</span> 15+ Disclosed</div>
-                  <div><span className="text-green-400">RESEARCH_PAPERS:</span> 8 Published</div>
-                  <div><span className="text-green-400">COMMUNITY_IMPACT:</span> 200+ Students Trained</div>
+                  <div><span className="text-green-400">RESEARCH_PAPERS:</span> 8 Published</div> */}
+                  <div><span className="text-green-400">COMMUNITY_IMPACT:</span> 100+ Students Trained with % plus CTF classed</div>
                 </div>
               </div>
             </div>
