@@ -34,7 +34,7 @@ const ContactSection = () => {
               variant="outline" 
               size="sm" 
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-mono"
-              onClick={() => window.location.href = 'mailto:info@aohf.team'}
+              onClick={() => window.location.href = 'mailto:contact@aohf.team'}
             >
               Send Email
             </Button>
