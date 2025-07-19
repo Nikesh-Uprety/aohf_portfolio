@@ -72,71 +72,14 @@ const Members = () => {
 
     // Moderators
     {
-      username: "mod_sec",
+      username: "kinachaiyo",
       role: "Moderator",
       specialization: ["Forensics", "OSINT"],
       website: "https://example.com",
       email: "mod_sec@aohf.team",
       avatar: "/lovable-uploads/0xn1ku_hacks.png",
     },
-    {
-      username: "crypto_mod",
-      role: "Moderator",
-      specialization: ["Crypto", "Math"],
-      website: "https://example.com",
-      email: "crypto_mod@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
-    {
-      username: "web_guardian",
-      role: "Moderator",
-      specialization: ["Web", "Network"],
-      website: "https://example.com",
-      email: "web_guardian@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
-
-    // Active Players
-    {
-      username: "pwn_master",
-      role: "Active Player",
-      specialization: ["Binary", "Pwn"],
-      website: "https://example.com",
-      email: "pwn_master@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
-    {
-      username: "stego_ninja",
-      role: "Active Player",
-      specialization: ["Steganography", "Forensics"],
-      website: "https://example.com",
-      email: "stego_ninja@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
-    {
-      username: "rev_engineer",
-      role: "Active Player",
-      specialization: ["Reverse", "Malware"],
-      website: "https://example.com",
-      email: "rev_engineer@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
-    {
-      username: "net_hunter",
-      role: "Active Player",
-      specialization: ["Network", "OSINT"],
-      website: "https://example.com",
-      email: "net_hunter@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
-    {
-      username: "crypto_wizard",
-      role: "Active Player",
-      specialization: ["Crypto", "Math"],
-      website: "https://example.com",
-      email: "crypto_wizard@aohf.team",
-      avatar: "/lovable-uploads/0xn1ku_hacks.png",
-    },
+   
   ];
 
   const roles = ['All', 'Founding Member', 'Moderator', 'Active Player'];

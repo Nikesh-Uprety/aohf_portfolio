@@ -19,7 +19,7 @@ const Home = () => {
     
     // Animate counters
     const animateCounters = () => {
-      const targets = { ctfs: 25, flags: 500, members: 12, writeups: 40 };
+      const targets = { ctfs: 25, flags: 500, members: 100, writeups: 40 };
       const duration = 2000;
       const steps = 60;
       const stepTime = duration / steps;
